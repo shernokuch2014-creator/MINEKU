@@ -1,0 +1,29 @@
+# Tugmalar. junk = keraksiz blok foizi, cost = narx, minutes = davomiylik
+junk-block: STONE
+tiers:
+  oddiy:
+    name: "&aODDIY MINE"
+    icon: COAL
+    slot: 11
+    junk: 60
+    cost: 2500
+    minutes: 30
+    ores: [COAL_ORE:50, IRON_ORE:30, COPPER_ORE:20]
+  afsona:
+    name: "&bAFSONA MINE"
+    icon: GOLD_INGOT
+    slot: 13
+    junk: 35
+    cost: 5000
+    minutes: 30
+    ores: [COAL_ORE:20, IRON_ORE:30, GOLD_ORE:25, REDSTONE_ORE:15, LAPIS_ORE:10]
+  imperator:
+    name: "&6IMPERATOR MINE"
+    icon: EMERALD
+    slot: 15
+    junk: 10
+    cost: 3000
+    minutes: 30
+    ores: [GOLD_ORE:20, DIAMOND_ORE:30, EMERALD_ORE:30, IRON_ORE:20]
+# /mine set bilan saqlanadi
+region: {}
